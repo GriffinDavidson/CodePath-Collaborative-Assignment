@@ -16,10 +16,10 @@ Fill out your preferred gym times, and locations, goals, and this will connect y
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
+- **Category: Social Media**
 - **Mobile:**
 - **Story:**
-- **Market:**
+- **Market: Everyday people + fitness enthusiasts**
 - **Habit:**
 - **Scope:**
 
