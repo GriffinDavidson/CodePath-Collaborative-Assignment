@@ -1,7 +1,6 @@
-Original App Design Project - README Template
+Social app for gym goers
 ===
 
-# Social app for gym goers
 
 ## Table of Contents
 1. [Overview](#Overview)
