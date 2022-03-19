@@ -1,10 +1,7 @@
-# CodePath-Collaborative-Assignment
-
-
 Original App Design Project - README Template
 ===
 
-# APP_NAME_HERE
+# Social app for gym goers
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -13,8 +10,10 @@ Original App Design Project - README Template
 2. [Schema](#Schema)
 
 ## Overview
+Find a fellow workout partner or coach at your gym who goes around the same time.
+
 ### Description
-[Description of your app]
+Fill out your preferred gym times, and locations, goals, and this will connect you with people looking for the same thing, and can also include coaches or personal trainers.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
