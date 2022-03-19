@@ -29,13 +29,21 @@ Fill out your preferred gym times, and locations, goals, and this will connect y
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User logs in to profile
+* User has a basic profile page.
+* User Profile page includes photo, bio, and preferred gyms.
+* List of nearby gyms sorted by selected location/nearby
+* Each gym entry has name/picture/rating/hours/phone.
+* Each gym has count of members on app attending gym
+
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* Able to list member's of a selected gym.
+* Social grid of nearby members of app to view profiles.
+* Submit a price for a selected gym if known. 
+* Confim if gym or not or closed(API may pull wrong info)
+* Users can upload photos on gym page.
 
 ### 2. Screen Archetypes
 
