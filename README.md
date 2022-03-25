@@ -47,10 +47,10 @@ Fill out your preferred gym times, and locations, goals, and this will connect y
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
+* Login Page or create account page
    * [list associated required story here]
    * ...
-* [list second screen here]
+* Table view or grid of nearby gyms
    * [list associated required story here]
    * ...
 
@@ -58,17 +58,17 @@ Fill out your preferred gym times, and locations, goals, and this will connect y
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* User sees the list of gyms
+* User bio and profile page
+* Possible social page or favorites
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
+* User logs on or creates account
+   * Takes to nearby gyms page to search by location
    * ...
-* [list second screen here]
-   * [list screen navigation here]
+* Bio page of information about hte logged on user
+   * Settings button on page to change user profile info
    * ...
 
 ## Wireframes
