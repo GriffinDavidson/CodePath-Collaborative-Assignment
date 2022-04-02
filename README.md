@@ -1,5 +1,7 @@
 # Social app for gym goers
 
+## App Name: GainMate
+
 ## Table of Contents
 
 1. [Overview](#Overview)
