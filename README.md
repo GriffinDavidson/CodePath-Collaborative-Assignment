@@ -75,8 +75,7 @@ Fill out your preferred gym times, and locations, goals, and this will connect y
 
 ## Wireframes
 
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+![wireframe image](./wireframe.png 'Wireframe Image')
 
 ### [BONUS] Digital Wireframes & Mockups
 
