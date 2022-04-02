@@ -86,6 +86,8 @@ Fill out your preferred gym times, and locations, goals, and this will connect y
 
 [This section will be completed in Unit 9]
 
+---
+
 ### Models
 
 ### Users
@@ -110,8 +112,38 @@ Fill out your preferred gym times, and locations, goals, and this will connect y
 | gymLocation    | String | lat:long                                           |
 | gymDescription | String | Gym text description                               |
 
+---
+
 ### Networking
 
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
+#### Home Screen
+
+- (Read/GET) Query all nearby gyms
+- (Read/GET) Query all my friends
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+#### Onboarding Screen
+
+- (Create/POST) Post user information (String, Profile Image) from form
+
+#### Profile Screen
+
+- (Read/GET) Query user info from database
+
+#### Edit Profile Screen
+
+- (Update/POST) Post updated user information
+
+#### Search Screen
+
+- (Read/GET) Query database for gyms
+
+#### Search Results Screen
+
+- (Read/GET) Display results of query
+
+#### Map Screen
+
+- (Read/GET) Query database for nearby gyms, given current position
+
+---
