@@ -17,7 +17,7 @@
 		0985D32D27FCCBF100F7E08E /* GymPalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985D32C27FCCBF100F7E08E /* GymPalUITests.swift */; };
 		0985D32F27FCCBF100F7E08E /* GymPalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985D32E27FCCBF100F7E08E /* GymPalUITestsLaunchTests.swift */; };
 		0985D33D27FCCF3900F7E08E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0985D33C27FCCF3900F7E08E /* .gitignore */; };
-		0985D33F27FCD01500F7E08E /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985D33E27FCD01500F7E08E /* APIKeys.swift */; };
+		0985D34127FCD93400F7E08E /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985D34027FCD93400F7E08E /* APIKeys.swift */; };
 		42BA765688390AF34D52778F /* Pods_GymPal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9BE9E5B37B1B231D2952D7 /* Pods_GymPal.framework */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +53,7 @@
 		0985D32C27FCCBF100F7E08E /* GymPalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymPalUITests.swift; sourceTree = "<group>"; };
 		0985D32E27FCCBF100F7E08E /* GymPalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymPalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0985D33C27FCCF3900F7E08E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		0985D33E27FCD01500F7E08E /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIKeys.swift; sourceTree = "<group>"; };
+		0985D34027FCD93400F7E08E /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIKeys.swift; path = GymPal/APIKeys.swift; sourceTree = SOURCE_ROOT; };
 		17C793A53584C45A6EB3E435 /* Pods-GymPal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymPal.debug.xcconfig"; path = "Target Support Files/Pods-GymPal/Pods-GymPal.debug.xcconfig"; sourceTree = "<group>"; };
 		47A7DDB2DD0A5E560DF3F72A /* Pods-GymPal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymPal.release.xcconfig"; path = "Target Support Files/Pods-GymPal/Pods-GymPal.release.xcconfig"; sourceTree = "<group>"; };
 		BD9BE9E5B37B1B231D2952D7 /* Pods_GymPal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymPal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -143,7 +143,7 @@
 		0985D33B27FCCD6000F7E08E /* Networking */ = {
 			isa = PBXGroup;
 			children = (
-				0985D33E27FCD01500F7E08E /* APIKeys.swift */,
+				0985D34027FCD93400F7E08E /* APIKeys.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -342,8 +342,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				0985D31027FCCBF000F7E08E /* ViewController.swift in Sources */,
+				0985D34127FCD93400F7E08E /* APIKeys.swift in Sources */,
 				0985D30C27FCCBF000F7E08E /* AppDelegate.swift in Sources */,
-				0985D33F27FCD01500F7E08E /* APIKeys.swift in Sources */,
 				0985D30E27FCCBF000F7E08E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
