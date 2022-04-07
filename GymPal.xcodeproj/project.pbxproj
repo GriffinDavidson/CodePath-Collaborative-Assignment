@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		0985D30C27FCCBF000F7E08E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985D30B27FCCBF000F7E08E /* AppDelegate.swift */; };
 		0985D30E27FCCBF000F7E08E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985D30D27FCCBF000F7E08E /* SceneDelegate.swift */; };
-		0985D31027FCCBF000F7E08E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985D30F27FCCBF000F7E08E /* ViewController.swift */; };
 		0985D31327FCCBF000F7E08E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0985D31127FCCBF000F7E08E /* Main.storyboard */; };
 		0985D31527FCCBF100F7E08E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0985D31427FCCBF100F7E08E /* Assets.xcassets */; };
 		0985D31827FCCBF100F7E08E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0985D31627FCCBF100F7E08E /* LaunchScreen.storyboard */; };
@@ -18,6 +17,8 @@
 		0985D32F27FCCBF100F7E08E /* GymPalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985D32E27FCCBF100F7E08E /* GymPalUITestsLaunchTests.swift */; };
 		0985D33D27FCCF3900F7E08E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0985D33C27FCCF3900F7E08E /* .gitignore */; };
 		0985D34127FCD93400F7E08E /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985D34027FCD93400F7E08E /* APIKeys.swift */; };
+		0985D34427FCE8E400F7E08E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985D34327FCE8E400F7E08E /* LoginViewController.swift */; };
+		0985D34627FCED1F00F7E08E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985D34527FCED1F00F7E08E /* SignUpViewController.swift */; };
 		42BA765688390AF34D52778F /* Pods_GymPal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9BE9E5B37B1B231D2952D7 /* Pods_GymPal.framework */; };
 /* End PBXBuildFile section */
 
@@ -42,7 +43,6 @@
 		0985D30827FCCBF000F7E08E /* GymPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0985D30B27FCCBF000F7E08E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0985D30D27FCCBF000F7E08E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0985D30F27FCCBF000F7E08E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0985D31227FCCBF000F7E08E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0985D31427FCCBF100F7E08E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0985D31727FCCBF100F7E08E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +54,8 @@
 		0985D32E27FCCBF100F7E08E /* GymPalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymPalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0985D33C27FCCF3900F7E08E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		0985D34027FCD93400F7E08E /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIKeys.swift; path = GymPal/APIKeys.swift; sourceTree = SOURCE_ROOT; };
+		0985D34327FCE8E400F7E08E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0985D34527FCED1F00F7E08E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		17C793A53584C45A6EB3E435 /* Pods-GymPal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymPal.debug.xcconfig"; path = "Target Support Files/Pods-GymPal/Pods-GymPal.debug.xcconfig"; sourceTree = "<group>"; };
 		47A7DDB2DD0A5E560DF3F72A /* Pods-GymPal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymPal.release.xcconfig"; path = "Target Support Files/Pods-GymPal/Pods-GymPal.release.xcconfig"; sourceTree = "<group>"; };
 		BD9BE9E5B37B1B231D2952D7 /* Pods_GymPal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymPal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -110,10 +112,10 @@
 		0985D30A27FCCBF000F7E08E /* GymPal */ = {
 			isa = PBXGroup;
 			children = (
+				0985D34227FCE8CD00F7E08E /* ViewControllers */,
 				0985D33B27FCCD6000F7E08E /* Networking */,
 				0985D30B27FCCBF000F7E08E /* AppDelegate.swift */,
 				0985D30D27FCCBF000F7E08E /* SceneDelegate.swift */,
-				0985D30F27FCCBF000F7E08E /* ViewController.swift */,
 				0985D31127FCCBF000F7E08E /* Main.storyboard */,
 				0985D31427FCCBF100F7E08E /* Assets.xcassets */,
 				0985D31627FCCBF100F7E08E /* LaunchScreen.storyboard */,
@@ -146,6 +148,15 @@
 				0985D34027FCD93400F7E08E /* APIKeys.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		0985D34227FCE8CD00F7E08E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0985D34327FCE8E400F7E08E /* LoginViewController.swift */,
+				0985D34527FCED1F00F7E08E /* SignUpViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 		332257E6A5B215B835D93B8F /* Frameworks */ = {
@@ -341,10 +352,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0985D31027FCCBF000F7E08E /* ViewController.swift in Sources */,
 				0985D34127FCD93400F7E08E /* APIKeys.swift in Sources */,
 				0985D30C27FCCBF000F7E08E /* AppDelegate.swift in Sources */,
+				0985D34427FCE8E400F7E08E /* LoginViewController.swift in Sources */,
 				0985D30E27FCCBF000F7E08E /* SceneDelegate.swift in Sources */,
+				0985D34627FCED1F00F7E08E /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
