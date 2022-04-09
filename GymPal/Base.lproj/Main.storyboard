@@ -92,7 +92,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="79" y="135"/>
+            <point key="canvasLocation" x="79" y="117"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="T2u-QX-p9S">
@@ -108,7 +108,23 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PuI-Qq-gwO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2881" y="305"/>
+            <point key="canvasLocation" x="2861" y="-336"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="K37-ER-OBX">
+            <objects>
+                <viewController id="ukk-Le-nnB" customClass="ProfileViewController" customModule="GymPal" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jcp-te-nLW">
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="YdC-ed-i4F"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="iGz-t5-tSA"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iAz-Ur-P07" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2860" y="375"/>
         </scene>
         <!--Sign up -->
         <scene sceneID="7bE-Jg-mzk">
@@ -228,7 +244,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="asW-w7-U09" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2004.6728971962616" y="650.53995680345577"/>
+            <point key="canvasLocation" x="908" y="825"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dQW-8R-uuT">
@@ -246,7 +262,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a0b-hL-Eit" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1098" y="651"/>
+            <point key="canvasLocation" x="79" y="825"/>
         </scene>
         <!--Item-->
         <scene sceneID="6ae-eL-mbB">
@@ -265,7 +281,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d0R-MJ-I3q" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1991" y="-117"/>
+            <point key="canvasLocation" x="1953" y="135"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="4o4-7X-1j5">
@@ -278,11 +294,12 @@
                     </tabBar>
                     <connections>
                         <segue destination="aLB-yA-aSI" kind="relationship" relationship="viewControllers" id="ouH-sS-gMv"/>
+                        <segue destination="ukk-Le-nnB" kind="relationship" relationship="viewControllers" id="EUK-iG-YMX"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MP3-yl-fxA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1110" y="-117"/>
+            <point key="canvasLocation" x="987" y="135"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
