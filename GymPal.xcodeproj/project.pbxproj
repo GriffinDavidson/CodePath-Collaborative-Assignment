@@ -16,10 +16,13 @@
 		0985D32D27FCCBF100F7E08E /* GymPalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985D32C27FCCBF100F7E08E /* GymPalUITests.swift */; };
 		0985D32F27FCCBF100F7E08E /* GymPalUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985D32E27FCCBF100F7E08E /* GymPalUITestsLaunchTests.swift */; };
 		0985D33D27FCCF3900F7E08E /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 0985D33C27FCCF3900F7E08E /* .gitignore */; };
-		0985D34127FCD93400F7E08E /* APIKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985D34027FCD93400F7E08E /* APIKeys.swift */; };
 		0985D34427FCE8E400F7E08E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985D34327FCE8E400F7E08E /* LoginViewController.swift */; };
 		0985D34627FCED1F00F7E08E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985D34527FCED1F00F7E08E /* SignUpViewController.swift */; };
-		42BA765688390AF34D52778F /* Pods_GymPal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9BE9E5B37B1B231D2952D7 /* Pods_GymPal.framework */; };
+		0F1E76CD280660AC000A154E /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1E76CC280660AC000A154E /* EditProfileViewController.swift */; };
+		0FB4E3252806553A0015A694 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FB4E3242806553A0015A694 /* ProfileViewController.swift */; };
+		362379215CD8601120BA17A3 /* Pods_GymPal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B403B45B41220B5DAC3D6FB0 /* Pods_GymPal.framework */; };
+		4AF75A85FFB7D274A97100CC /* Pods_GymPalTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9526249D85735F7F830A1767 /* Pods_GymPalTests.framework */; };
+		A8D769306064B114E3461C99 /* Pods_GymPal_GymPalUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5477F4C74963F799E49339D8 /* Pods_GymPal_GymPalUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00FB29055354AC0127B78BBC /* Pods-GymPal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymPal.debug.xcconfig"; path = "Target Support Files/Pods-GymPal/Pods-GymPal.debug.xcconfig"; sourceTree = "<group>"; };
 		0985D30827FCCBF000F7E08E /* GymPal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GymPal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0985D30B27FCCBF000F7E08E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0985D30D27FCCBF000F7E08E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -53,12 +57,18 @@
 		0985D32C27FCCBF100F7E08E /* GymPalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymPalUITests.swift; sourceTree = "<group>"; };
 		0985D32E27FCCBF100F7E08E /* GymPalUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymPalUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0985D33C27FCCF3900F7E08E /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
-		0985D34027FCD93400F7E08E /* APIKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = APIKeys.swift; path = GymPal/APIKeys.swift; sourceTree = SOURCE_ROOT; };
 		0985D34327FCE8E400F7E08E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0985D34527FCED1F00F7E08E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
-		17C793A53584C45A6EB3E435 /* Pods-GymPal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymPal.debug.xcconfig"; path = "Target Support Files/Pods-GymPal/Pods-GymPal.debug.xcconfig"; sourceTree = "<group>"; };
-		47A7DDB2DD0A5E560DF3F72A /* Pods-GymPal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymPal.release.xcconfig"; path = "Target Support Files/Pods-GymPal/Pods-GymPal.release.xcconfig"; sourceTree = "<group>"; };
-		BD9BE9E5B37B1B231D2952D7 /* Pods_GymPal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymPal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F1E76CC280660AC000A154E /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		0FB4E3242806553A0015A694 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		36558650E00788940F250C92 /* Pods-GymPalTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymPalTests.debug.xcconfig"; path = "Target Support Files/Pods-GymPalTests/Pods-GymPalTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D6CA2ADB70B5F4BB8DCBBE4 /* Pods-GymPal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymPal.release.xcconfig"; path = "Target Support Files/Pods-GymPal/Pods-GymPal.release.xcconfig"; sourceTree = "<group>"; };
+		5477F4C74963F799E49339D8 /* Pods_GymPal_GymPalUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymPal_GymPalUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B11F121893D533952C8DEF2 /* Pods-GymPalTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymPalTests.release.xcconfig"; path = "Target Support Files/Pods-GymPalTests/Pods-GymPalTests.release.xcconfig"; sourceTree = "<group>"; };
+		7AF02EF290D867BD543D9539 /* Pods-GymPal-GymPalUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymPal-GymPalUITests.debug.xcconfig"; path = "Target Support Files/Pods-GymPal-GymPalUITests/Pods-GymPal-GymPalUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9526249D85735F7F830A1767 /* Pods_GymPalTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymPalTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADE2DC48DD4DD8688CAFF579 /* Pods-GymPal-GymPalUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymPal-GymPalUITests.release.xcconfig"; path = "Target Support Files/Pods-GymPal-GymPalUITests/Pods-GymPal-GymPalUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B403B45B41220B5DAC3D6FB0 /* Pods_GymPal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymPal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42BA765688390AF34D52778F /* Pods_GymPal.framework in Frameworks */,
+				362379215CD8601120BA17A3 /* Pods_GymPal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF75A85FFB7D274A97100CC /* Pods_GymPalTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8D769306064B114E3461C99 /* Pods_GymPal_GymPalUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,7 +107,7 @@
 				0985D32B27FCCBF100F7E08E /* GymPalUITests */,
 				0985D30927FCCBF000F7E08E /* Products */,
 				54EAA626C28E4DE7B7E0E357 /* Pods */,
-				332257E6A5B215B835D93B8F /* Frameworks */,
+				94D2202F63AD8CF4B00901FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -113,7 +125,6 @@
 			isa = PBXGroup;
 			children = (
 				0985D34227FCE8CD00F7E08E /* ViewControllers */,
-				0985D33B27FCCD6000F7E08E /* Networking */,
 				0985D30B27FCCBF000F7E08E /* AppDelegate.swift */,
 				0985D30D27FCCBF000F7E08E /* SceneDelegate.swift */,
 				0985D31127FCCBF000F7E08E /* Main.storyboard */,
@@ -142,38 +153,38 @@
 			path = GymPalUITests;
 			sourceTree = "<group>";
 		};
-		0985D33B27FCCD6000F7E08E /* Networking */ = {
-			isa = PBXGroup;
-			children = (
-				0985D34027FCD93400F7E08E /* APIKeys.swift */,
-			);
-			path = Networking;
-			sourceTree = "<group>";
-		};
 		0985D34227FCE8CD00F7E08E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
 				0985D34327FCE8E400F7E08E /* LoginViewController.swift */,
 				0985D34527FCED1F00F7E08E /* SignUpViewController.swift */,
+				0FB4E3242806553A0015A694 /* ProfileViewController.swift */,
+				0F1E76CC280660AC000A154E /* EditProfileViewController.swift */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		332257E6A5B215B835D93B8F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BD9BE9E5B37B1B231D2952D7 /* Pods_GymPal.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		54EAA626C28E4DE7B7E0E357 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				17C793A53584C45A6EB3E435 /* Pods-GymPal.debug.xcconfig */,
-				47A7DDB2DD0A5E560DF3F72A /* Pods-GymPal.release.xcconfig */,
+				00FB29055354AC0127B78BBC /* Pods-GymPal.debug.xcconfig */,
+				4D6CA2ADB70B5F4BB8DCBBE4 /* Pods-GymPal.release.xcconfig */,
+				7AF02EF290D867BD543D9539 /* Pods-GymPal-GymPalUITests.debug.xcconfig */,
+				ADE2DC48DD4DD8688CAFF579 /* Pods-GymPal-GymPalUITests.release.xcconfig */,
+				36558650E00788940F250C92 /* Pods-GymPalTests.debug.xcconfig */,
+				6B11F121893D533952C8DEF2 /* Pods-GymPalTests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		94D2202F63AD8CF4B00901FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B403B45B41220B5DAC3D6FB0 /* Pods_GymPal.framework */,
+				5477F4C74963F799E49339D8 /* Pods_GymPal_GymPalUITests.framework */,
+				9526249D85735F7F830A1767 /* Pods_GymPalTests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,11 +194,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0985D33227FCCBF100F7E08E /* Build configuration list for PBXNativeTarget "GymPal" */;
 			buildPhases = (
-				5B940FD8605639680D4DDE60 /* [CP] Check Pods Manifest.lock */,
+				39D783E95A385A8DF7D199C3 /* [CP] Check Pods Manifest.lock */,
 				0985D30427FCCBF000F7E08E /* Sources */,
 				0985D30527FCCBF000F7E08E /* Frameworks */,
 				0985D30627FCCBF000F7E08E /* Resources */,
-				DCB0C1253CBC9A739EC4A937 /* [CP] Embed Pods Frameworks */,
+				B363DEEB30FE1B2E6DE32231 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -202,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0985D33527FCCBF100F7E08E /* Build configuration list for PBXNativeTarget "GymPalTests" */;
 			buildPhases = (
+				F5A1CCF7C94FD623E98E73DF /* [CP] Check Pods Manifest.lock */,
 				0985D31A27FCCBF100F7E08E /* Sources */,
 				0985D31B27FCCBF100F7E08E /* Frameworks */,
 				0985D31C27FCCBF100F7E08E /* Resources */,
@@ -220,9 +232,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0985D33827FCCBF100F7E08E /* Build configuration list for PBXNativeTarget "GymPalUITests" */;
 			buildPhases = (
+				FC568D0F6E288AB3627ECB11 /* [CP] Check Pods Manifest.lock */,
 				0985D32427FCCBF100F7E08E /* Sources */,
 				0985D32527FCCBF100F7E08E /* Frameworks */,
 				0985D32627FCCBF100F7E08E /* Resources */,
+				B976B90248860F116E50F0F6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -306,7 +320,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		5B940FD8605639680D4DDE60 /* [CP] Check Pods Manifest.lock */ = {
+		39D783E95A385A8DF7D199C3 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -328,7 +342,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DCB0C1253CBC9A739EC4A937 /* [CP] Embed Pods Frameworks */ = {
+		B363DEEB30FE1B2E6DE32231 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -345,6 +359,67 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GymPal/Pods-GymPal-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		B976B90248860F116E50F0F6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GymPal-GymPalUITests/Pods-GymPal-GymPalUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GymPal-GymPalUITests/Pods-GymPal-GymPalUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GymPal-GymPalUITests/Pods-GymPal-GymPalUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5A1CCF7C94FD623E98E73DF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GymPalTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC568D0F6E288AB3627ECB11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GymPal-GymPalUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -352,9 +427,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0985D34127FCD93400F7E08E /* APIKeys.swift in Sources */,
 				0985D30C27FCCBF000F7E08E /* AppDelegate.swift in Sources */,
 				0985D34427FCE8E400F7E08E /* LoginViewController.swift in Sources */,
+				0F1E76CD280660AC000A154E /* EditProfileViewController.swift in Sources */,
+				0FB4E3252806553A0015A694 /* ProfileViewController.swift in Sources */,
 				0985D30E27FCCBF000F7E08E /* SceneDelegate.swift in Sources */,
 				0985D34627FCED1F00F7E08E /* SignUpViewController.swift in Sources */,
 			);
@@ -530,7 +606,7 @@
 		};
 		0985D33327FCCBF100F7E08E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17C793A53584C45A6EB3E435 /* Pods-GymPal.debug.xcconfig */;
+			baseConfigurationReference = 00FB29055354AC0127B78BBC /* Pods-GymPal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -560,7 +636,7 @@
 		};
 		0985D33427FCCBF100F7E08E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 47A7DDB2DD0A5E560DF3F72A /* Pods-GymPal.release.xcconfig */;
+			baseConfigurationReference = 4D6CA2ADB70B5F4BB8DCBBE4 /* Pods-GymPal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -590,6 +666,7 @@
 		};
 		0985D33627FCCBF100F7E08E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36558650E00788940F250C92 /* Pods-GymPalTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -610,6 +687,7 @@
 		};
 		0985D33727FCCBF100F7E08E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B11F121893D533952C8DEF2 /* Pods-GymPalTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -630,6 +708,7 @@
 		};
 		0985D33927FCCBF100F7E08E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AF02EF290D867BD543D9539 /* Pods-GymPal-GymPalUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -648,6 +727,7 @@
 		};
 		0985D33A27FCCBF100F7E08E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ADE2DC48DD4DD8688CAFF579 /* Pods-GymPal-GymPalUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

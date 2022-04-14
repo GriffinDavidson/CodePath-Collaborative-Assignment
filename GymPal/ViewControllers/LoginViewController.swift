@@ -30,6 +30,8 @@ class LoginViewController: UIViewController {
         PFUser.logInWithUsername(inBackground: self.emailTextField.text!, password: self.passwordTextField.text!) {
                   (user: PFUser?, error: Error?) -> Void in
                   if user != nil {
+                      let defaults = UserDefaults.standard
+                      defaults.set(user?.username, forKey: "userId")
                     self.performSegue(withIdentifier: "loginSegue", sender: nil)
                   } else {
                     self.displayAlert(withTitle: "Error", message: error!.localizedDescription)
