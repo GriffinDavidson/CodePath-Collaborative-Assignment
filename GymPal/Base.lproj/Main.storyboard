@@ -94,21 +94,67 @@
             </objects>
             <point key="canvasLocation" x="79" y="135"/>
         </scene>
-        <!--View Controller-->
+        <!--Users-->
         <scene sceneID="T2u-QX-p9S">
             <objects>
-                <viewController id="PlS-JC-pGQ" sceneMemberID="viewController">
+                <viewController title="Users" id="PlS-JC-pGQ" customClass="UsersViewController" customModule="GymPal" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b3A-r4-3u4">
                         <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="250" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="gvz-KN-Hi3">
+                                <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="UserCell" id="43M-XX-2M9" customClass="UserCell" customModule="GymPal" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="44.666666030883789" width="428" height="250"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="43M-XX-2M9" id="EhS-yQ-NPM">
+                                            <rect key="frame" x="0.0" y="0.0" width="428" height="250"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="dhQ-Ld-jIm">
+                                                    <rect key="frame" x="20" y="24" width="169" height="171"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                </imageView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MB9-A0-79w">
+                                                    <rect key="frame" x="204" y="24" width="88" height="39"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="32"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="67s-ec-uhy">
+                                                    <rect key="frame" x="209" y="71" width="199" height="57"/>
+                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="nameLabel" destination="MB9-A0-79w" id="LYE-lL-dDC"/>
+                                            <outlet property="photoView" destination="dhQ-Ld-jIm" id="hSg-Re-ho3"/>
+                                            <outlet property="usernameLabel" destination="67s-ec-uhy" id="2XE-AE-UIA"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="47B-dg-4h6"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="LY0-bI-Iv7"/>
+                    <connections>
+                        <outlet property="tableView" destination="gvz-KN-Hi3" id="sAi-nt-cCc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PuI-Qq-gwO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3486" y="-1289"/>
+            <point key="canvasLocation" x="3485.0467289719622" y="-1289.4168466522679"/>
         </scene>
         <!--Sign up -->
         <scene sceneID="7bE-Jg-mzk">
@@ -564,11 +610,11 @@
             </objects>
             <point key="canvasLocation" x="1098" y="651"/>
         </scene>
-        <!--Item-->
+        <!--Users-->
         <scene sceneID="6ae-eL-mbB">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aLB-yA-aSI" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="oVT-qU-FQS"/>
+                    <tabBarItem key="tabBarItem" title="Users" image="person.3.fill" catalog="system" id="oVT-qU-FQS"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="Pd5-zr-s8b">
                         <rect key="frame" x="0.0" y="44" width="428" height="44"/>
@@ -661,11 +707,12 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="KCP-6H-G7V"/>
+        <segue reference="o3E-Tw-FLm"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="chevron.backward" catalog="system" width="96" height="128"/>
         <image name="face.smiling" catalog="system" width="128" height="121"/>
+        <image name="person.3.fill" catalog="system" width="128" height="61"/>
         <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
