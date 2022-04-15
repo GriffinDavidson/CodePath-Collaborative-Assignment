@@ -38,6 +38,24 @@ class UsersViewController: UIViewController, UITableViewDataSource, UITableViewD
     }
     
     
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // find selected user
+        let cell = sender as! UITableViewCell
+        let indexPath = tableView.indexPath(for: cell)!
+        
+        let user = users[indexPath.row]
+        
+        let detailsViewController = segue.destination as! UserDetailsViewController
+        detailsViewController.user = user
+        
+        
+        
+        // pass selected user to details controller
+        
+        
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         // for each row, cell
         let cell = tableView.dequeueReusableCell(withIdentifier: "UserCell") as! UserCell
