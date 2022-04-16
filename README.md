@@ -8,7 +8,7 @@
 2. [Product Spec](#Product-Spec)
 3. [Wireframes](#Wireframes)
 4. [Schema](#Schema)
-5. Unit 8 (#Sprint_2_Update)
+5. [Unit 8_Update](#Unit 8_Update)
 ## Overview
 
 Find a fellow workout partner or coach at your gym who goes around the same time.
@@ -149,7 +149,7 @@ Fill out your preferred gym times, and locations, goals, and this will connect y
 
 ---
 
-##Sprint_2_Update
+##Unit 8_Update
 https://github.com/GriffinDavidson/CodePath-Collaborative-Assignment/projects
 
 - We completed profile page
