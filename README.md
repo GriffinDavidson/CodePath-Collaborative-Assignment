@@ -149,7 +149,7 @@ Fill out your preferred gym times, and locations, goals, and this will connect y
 
 ---
 
-##Unit 8_Update
+## Unit 8_Update
 https://github.com/GriffinDavidson/CodePath-Collaborative-Assignment/projects
 
 - We completed profile page
