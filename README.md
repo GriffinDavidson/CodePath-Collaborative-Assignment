@@ -160,7 +160,7 @@ Next Sprint (Unit 9)
 - Finish up Nearby Gyms 
 - Finish up Social Detail page 
 - Complete Home Screen 
-
+- Connect favorite gyms from nearby gyms into profile page
 
 ### App Walkthrough GIF (Unit 8)
 
