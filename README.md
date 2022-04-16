@@ -152,7 +152,7 @@ Fill out your preferred gym times, and locations, goals, and this will connect y
 ## Unit_8_Update
 https://github.com/GriffinDavidson/CodePath-Collaborative-Assignment/projects
 
-- We completed profile page
+- We completed profile page https://github.com/GriffinDavidson/CodePath-Collaborative-Assignment/issues/4
 - Successfully configured Yelp API for Nearby Gyms 
 - Completed part 1 for Social Page, showed social people
 
