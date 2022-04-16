@@ -5,10 +5,10 @@
 ## Table of Contents
 
 1. [Overview](#Overview)
-1. [Product Spec](#Product-Spec)
-1. [Wireframes](#Wireframes)
-1. [Schema](#Schema)
-
+2. [Product Spec](#Product-Spec)
+3. [Wireframes](#Wireframes)
+4. [Schema](#Schema)
+5. Unit 8 (#Sprint_2_Update)
 ## Overview
 
 Find a fellow workout partner or coach at your gym who goes around the same time.
@@ -148,3 +148,26 @@ Fill out your preferred gym times, and locations, goals, and this will connect y
 - (Read/GET) Query database for nearby gyms, given current position
 
 ---
+
+##Sprint_2_Update
+https://github.com/GriffinDavidson/CodePath-Collaborative-Assignment/projects
+
+- We completed profile page
+- Successfully configured Yelp API for Nearby Gyms 
+- Completed part 1 for Social Page, showed social people
+
+Next Sprint (Unit 9) 
+- Finish up Nearby Gyms 
+- Finish up Social Detail page 
+- Complete Home Screen 
+
+
+### App Walkthrough GIF (Unit 8)
+
+<img src="https://github.com/GriffinDavidson/CodePath-Collaborative-Assignment/blob/main/GymPal_Unit_8.gif" width=250><br>
+
+
+<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/699920288?h=1b80cb4511&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Unit_8.mov"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+
+
+
