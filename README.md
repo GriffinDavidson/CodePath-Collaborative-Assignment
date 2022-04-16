@@ -164,10 +164,5 @@ Next Sprint (Unit 9)
 
 ### App Walkthrough GIF (Unit 8)
 
-<img src="https://github.com/GriffinDavidson/CodePath-Collaborative-Assignment/blob/main/GymPal_Unit_8.gif" width=250><br>
-
-
-<div style="padding:75% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/699920288?h=1b80cb4511&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Unit_8.mov"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
-
-
+<img src="https://github.com/GriffinDavidson/CodePath-Collaborative-Assignment/blob/main/GymPal_Unit_8.gif" width=300><br>
 
