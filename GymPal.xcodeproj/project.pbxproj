@@ -20,6 +20,10 @@
 		0985D34427FCE8E400F7E08E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985D34327FCE8E400F7E08E /* LoginViewController.swift */; };
 		0985D34627FCED1F00F7E08E /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985D34527FCED1F00F7E08E /* SignUpViewController.swift */; };
 		0985D34827FF7F5A00F7E08E /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985D34727FF7F5A00F7E08E /* ProfileViewController.swift */; };
+		0985D34A280738B300F7E08E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985D349280738B300F7E08E /* MapViewController.swift */; };
+		0985D34C2808BF1600F7E08E /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0985D34B2808BF1600F7E08E /* API.swift */; };
+		09ABDF0E2809D42400774536 /* Gyms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09ABDF0D2809D42400774536 /* Gyms.swift */; };
+		09D3232D280E00CC0038044F /* GymCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D3232C280E00CC0038044F /* GymCellTableViewCell.swift */; };
 		42BA765688390AF34D52778F /* Pods_GymPal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9BE9E5B37B1B231D2952D7 /* Pods_GymPal.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +62,10 @@
 		0985D34327FCE8E400F7E08E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		0985D34527FCED1F00F7E08E /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		0985D34727FF7F5A00F7E08E /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0985D349280738B300F7E08E /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		0985D34B2808BF1600F7E08E /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = API.swift; path = GymPal/API.swift; sourceTree = SOURCE_ROOT; };
+		09ABDF0D2809D42400774536 /* Gyms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gyms.swift; sourceTree = "<group>"; };
+		09D3232C280E00CC0038044F /* GymCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GymCellTableViewCell.swift; sourceTree = "<group>"; };
 		17C793A53584C45A6EB3E435 /* Pods-GymPal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymPal.debug.xcconfig"; path = "Target Support Files/Pods-GymPal/Pods-GymPal.debug.xcconfig"; sourceTree = "<group>"; };
 		47A7DDB2DD0A5E560DF3F72A /* Pods-GymPal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GymPal.release.xcconfig"; path = "Target Support Files/Pods-GymPal/Pods-GymPal.release.xcconfig"; sourceTree = "<group>"; };
 		BD9BE9E5B37B1B231D2952D7 /* Pods_GymPal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GymPal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -114,6 +122,7 @@
 		0985D30A27FCCBF000F7E08E /* GymPal */ = {
 			isa = PBXGroup;
 			children = (
+				09ABDF0C2809D41300774536 /* Models */,
 				0985D34227FCE8CD00F7E08E /* ViewControllers */,
 				0985D33B27FCCD6000F7E08E /* Networking */,
 				0985D30B27FCCBF000F7E08E /* AppDelegate.swift */,
@@ -148,6 +157,7 @@
 			isa = PBXGroup;
 			children = (
 				0985D34027FCD93400F7E08E /* APIKeys.swift */,
+				0985D34B2808BF1600F7E08E /* API.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -158,8 +168,18 @@
 				0985D34327FCE8E400F7E08E /* LoginViewController.swift */,
 				0985D34527FCED1F00F7E08E /* SignUpViewController.swift */,
 				0985D34727FF7F5A00F7E08E /* ProfileViewController.swift */,
+				0985D349280738B300F7E08E /* MapViewController.swift */,
+				09D3232C280E00CC0038044F /* GymCellTableViewCell.swift */,
 			);
 			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		09ABDF0C2809D41300774536 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				09ABDF0D2809D42400774536 /* Gyms.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 		332257E6A5B215B835D93B8F /* Frameworks */ = {
@@ -356,11 +376,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				0985D34827FF7F5A00F7E08E /* ProfileViewController.swift in Sources */,
+				0985D34C2808BF1600F7E08E /* API.swift in Sources */,
 				0985D34127FCD93400F7E08E /* APIKeys.swift in Sources */,
 				0985D30C27FCCBF000F7E08E /* AppDelegate.swift in Sources */,
+				09ABDF0E2809D42400774536 /* Gyms.swift in Sources */,
+				09D3232D280E00CC0038044F /* GymCellTableViewCell.swift in Sources */,
 				0985D34427FCE8E400F7E08E /* LoginViewController.swift in Sources */,
 				0985D30E27FCCBF000F7E08E /* SceneDelegate.swift in Sources */,
 				0985D34627FCED1F00F7E08E /* SignUpViewController.swift in Sources */,
+				0985D34A280738B300F7E08E /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -538,11 +562,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8UD54HH47V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GymPal/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Gym Mate would like to use your location to locate nearby gyms";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -554,8 +580,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.spencer.GymPal;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spencer.GymPals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -568,11 +595,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 8UD54HH47V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = GymPal/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Gym Mate would like to use your location to locate nearby gyms";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -584,8 +613,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.spencer.GymPal;
+				PRODUCT_BUNDLE_IDENTIFIER = com.spencer.GymPals;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
