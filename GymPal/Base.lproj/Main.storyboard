@@ -193,12 +193,17 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="TaY-3P-Idv">
+                                <rect key="frame" x="0.0" y="331" width="428" height="195"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="47B-dg-4h6"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" id="LY0-bI-Iv7"/>
                     <connections>
+                        <outlet property="map" destination="TaY-3P-Idv" id="wuR-Td-rXk"/>
                         <outlet property="peopleCollectionView" destination="aa9-bT-KL9" id="91K-6P-nAU"/>
                     </connections>
                 </viewController>
