@@ -7,6 +7,8 @@
 
 import UIKit
 import MapKit
+import Parse
+import AlamofireImage
 
 class HomeViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, MKMapViewDelegate
 {
@@ -21,7 +23,8 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
     var gymArray: [Gyms] = []
     var gymPins = [MKPointAnnotation]()
     
-    var users = [User]()
+    var users = [PFObject]()
+    
     {
         didSet
         {
@@ -39,15 +42,7 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
         peopleCollectionView.delegate = self
         peopleCollectionView.dataSource = self
 
-        users = [User(name: "1"),
-                 User(name: "2"),
-                 User(name: "3"),
-                 User(name: "4"),
-                 User(name: "5"),
-                 User(name: "6"),
-                 User(name: "7"),
-                 User(name: "8"),
-                 User(name: "9")]
+        
         // Do any additional setup after loading the view.
         
 //        let layout = peopleCollectionView.collectionViewLayout as! UICollectionViewFlowLayout
@@ -71,10 +66,14 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
         findCurrentLocation()
         centerMap()
         loadGyms()
+        loadUsers()
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell
     {
+        let user = users[indexPath.row]
+        
+        
         if (indexPath.row < users.count && indexPath.row < 7)
         {
             guard let cell = peopleCollectionView.dequeueReusableCell(withReuseIdentifier: "PeopleCollectionViewCell", for: indexPath) as? PeopleCollectionViewCell
@@ -84,7 +83,16 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
                 return UICollectionViewCell()
             }
             
-            cell.configure(with: users[indexPath.row])
+            let name =  "\(user["firstName"]!) \(user["lastName"]!)"
+            
+            let imageFile = user["profilePicture"] as! PFFileObject
+            let urlString = imageFile.url!
+            let url = URL(string: urlString)!
+            
+            cell.image.af.setImage(withURL: url)
+            
+            
+            cell.nameLabel.text = name
             
             return cell
         }
@@ -216,4 +224,27 @@ class HomeViewController: UIViewController, UICollectionViewDataSource, UICollec
                 } .resume()
                 
             }
+    
+    func loadUsers()
+    {
+        let query = PFQuery(className: "Profiles")
+        query.includeKeys(["lastName",
+                           "prefferedGym",
+                           "about",
+                           "pronouns",
+                           "profilePicture",
+                           "userName",
+                           "firstName",
+                           "age"])
+        query.limit = 20
+        
+        query.findObjectsInBackground
+        { (users, error) in
+            if users != nil
+            {
+                self.users = users!
+                self.peopleCollectionView.reloadData()
+            }
+        }
+    }
 }

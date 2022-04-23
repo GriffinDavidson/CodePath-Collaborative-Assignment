@@ -41,7 +41,7 @@ class FullPeopleViewController: UIViewController, UICollectionViewDelegate, UICo
             return UICollectionViewCell()
         }
         
-        cell.configure(with: users[indexPath.row])
+        
         
         return cell
     }

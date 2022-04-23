@@ -7,13 +7,12 @@
 
 import UIKit
 
+
 class PeopleCollectionViewCell: UICollectionViewCell
 {
     
     @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var image: UIImageView!
     
-    func configure(with user: User)
-    {
-        nameLabel.text = user.name
-    }
+    
 }
